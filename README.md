@@ -2,7 +2,13 @@
 
 Effortlessly convert indented text into beautiful LaTeX brace-style tree diagrams.
 
-[**🚀 Try Textree Live! 🚀**](https://2005czq.github.io/Textree/)
+<div align="center">
+  <h3>
+    <a href="https://2005czq.github.io/Textree/">
+      🚀 Try Textree Live! 🚀
+    </a>
+  </h3>
+</div>
 
 ## 🤔 Why Textree?
 
@@ -12,8 +18,8 @@ It allows you to focus on your content and structure using simple indentation, a
 
 ## 🚀 How to Use
 
-1. Navigate to the [demo](https://2005czq.github.io/Textree/).
-2. Type your hierarchical text in the input box on the left, using indentation (tabs or spaces) to denote levels.
+1. Navigate to the [Textree Live Demo](https://2005czq.github.io/Textree/).
+2. Type your hierarchical text in the input box on the left, using the `Tab` key to denote levels.
 3. Click the "Convert to LaTeX" button. The live preview and the generated code will appear on the right.
 4. Copy the code and paste it into your LaTeX editor!
 
@@ -56,15 +62,41 @@ $$
 \end{aligned}\right.
 $$
 ```
-And it looks like:
+Rendered output:
 
+<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
-  <img alt="语文试卷结构图" src="./assets/light.svg">
+  <img alt="output example image" src="./assets/light.svg">
 </picture>
+</div>
 
 </details>
+
+## 💻 Local Development
+
+Want to run or modify Textree locally? It's simple!
+
+1.  Clone the repository:
+
+	```bash
+	git clone https://github.com/2005czq/Textree.git
+	```
+
+2.  Navigate to the directory:
+
+	```bash
+	cd Textree
+	```
+
+3.  Open `index.html` in your favorite web browser. That's it!
+
+## 🏺 History
+
+Textree began as a personal C++ command-line tool to escape the tedious task of handwriting nested LaTeX code. To make it accessible to everyone, it was completely rewritten as the lightweight, cross-platform web tool you see today.
+
+The original C++ prototype, a Unix-style command-line utility, is preserved in the `_archive` folder for those interested in the project's evolution.
 
 ## 📜 License
 
