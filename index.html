@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>Textree</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <h1>🌳 Textree 🌳</h1>
+    <p class="tagline">Effortlessly convert indented text into beautiful LaTeX brace-style tree diagrams.</p>
+
+    <div class="container">
+        <div class="card">
+            <h2>✨ Input</h2>
+            <textarea id="input" placeholder="Enter your tree structure here..."></textarea>
+            <button onclick="convertToLatex()">🚀 Convert to LaTeX</button>
+            <h2>🎨 Preview</h2>
+            <div id="render"></div>
+        </div>
+
+        <div class="card">
+            <h2>📖 Code</h2>
+            <div id="output"></div>
+            <button id="copyButton" onclick="copyToClipboard()">📋 Copy to clipboard</button>
+        </div>
+    </div>
+
+    <footer>
+        <a href="https://github.com/2005czq/Textree" target="_blank" title="View on GitHub"
+            style="color: #333; font-size: 24px;">
+            <i class="fab fa-github"></i>
+        </a>
+    </footer>
+
+    <!-- Theme toggle button -->
+    <button id="themeToggle" class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">
+        <i class="fas fa-sun" id="themeIcon"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
