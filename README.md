@@ -57,24 +57,12 @@ $$
 $$
 ```
 And it looks like:
-$$
-语文试卷结构
-\left\{\begin{aligned}
-	&积累运用
-	\left\{\begin{aligned}
-		&古诗文默写\\
-		&词语填写\\
-		&病句\\
-	\end{aligned}\right.\\
-	&阅读
-	\left\{\begin{aligned}
-		&古文\\
-		&应用类文本\\
-		&文学类文本\\
-	\end{aligned}\right.\\
-	&作文\\
-\end{aligned}\right.
-$$
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
+  <img alt="语文试卷结构图" src="./assets/light.svg">
+</picture>
 
 </details>
 
