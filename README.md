@@ -92,12 +92,6 @@ Want to run or modify Textree locally? It's simple!
 
 3.  Open `index.html` in your favorite web browser. That's it!
 
-## 🏺 History
-
-Textree began as a personal C++ command-line tool to escape the tedious task of handwriting nested LaTeX code. To make it accessible to everyone, it was completely rewritten as the lightweight, cross-platform web tool you see today.
-
-The original C++ prototype, a Unix-style command-line utility, is preserved in the `_archive` folder for those interested in the project's evolution.
-
 ## 📜 License
 
 This project is licensed under the [MIT License](./LICENSE).
